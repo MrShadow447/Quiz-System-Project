@@ -22,6 +22,7 @@ int main()
 	printf("Your Answer: ");
 	ans = getche();
 	if (ans == 'B' || ans == 'b') score ++;
+	getch();
 	clrscr();
 
 	//Question 2
@@ -30,6 +31,7 @@ int main()
 	printf("Your Answer: ");
 	ans = getche();
 	if (ans == 'D' || ans == 'd') score++;
+	getch();
 	clrscr();
 
 	//Question 3
@@ -38,16 +40,80 @@ int main()
 	printf("Your Answer: ");
 	ans = getche();
 	if (ans == 'D' || ans == 'd') score++;
+	getch();
+	clrscr();
+
+	//Question 4
+	printf("Q4. Which Planet is known as the Red Planet?\n");
+	printf("A. Mars\nB. Venus\nC. Jupiter\nD. Mercury\n");
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'A' || ans == 'a') score++;
+	getch();
+	clrscr();
+
+	//Question 5
+	printf("Q5. What is the smallest unit of data in a computer?\n");
+	printf("A. Nibble\nB. Byte\nC. Megabyte\nD. Bit\n");
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'D' || ans == 'd') score++;
+	getch();
+	clrscr();
+
+	//Question 6
+	printf("Q6. What is the boiling point of water at sea level?\n");
+	printf("A. 50%cC\nB. 75%cC\nC. 100%cC\nD. 150%cC\n", 248, 248, 248, 248);
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'C' || ans == 'c') score++;
+	getch();
+	clrscr();
+
+	//Question 7
+	printf("Q7. At what temperature is water the densest?\n");
+	printf("A. 2%cC\nB. 4%cC\nC. 6%cC\nD. 10%cC\n", 248, 248, 248, 248);
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'B' || ans == 'b') score++;
+	getch();
+	clrscr();
+
+	//Question 8
+	printf("Q8. Sound travels fastest in-\n");
+	printf("A. Steel\nB. Air\nC. Water\nD. Vaccum\n");
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'A' || ans == 'a') score++;
+	getch();
+	clrscr();
+
+	//Question 9
+	printf("Q9. The force that opposes motion is called-\n");
+	printf("A. Magnetism\nB. Gravity\nC. Inertia\nD. Friction\n");
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'D' || ans == 'd') score++;
+	getch();
+	clrscr();
+
+	//Question 10
+	printf("Q10. Which animal is known as the 'Ship of the Desert'?\n");
+	printf("A. Horse\nB. Elephant\nC. Camel\nD. Donkey\n");
+	printf("Your Answer: ");
+	ans = getche();
+	if (ans == 'C' || ans == 'c') score++;
+	getch();
 	clrscr();
 
 	//Result
 	printf("=======QUIZ OVER=======\n\n");
-	printf("Your Total Score is: %d / 3\n", score);
+	printf("Your Total Score is: %d / 10\n", score);
 
 	//Outro
-	if (score == 3) printf("Great! Full Marks!\n");
-	else if (score <= 3 && score != 0) printf("Nice try.\n");
-	else printf("Work Hard!\n");
+	if (score == 10) printf("Thats Great! Full Marks!\n");
+	else if (score <= 10 && score >= 4) printf("Nice try.\n");
+	else printf("Work Hard!.\n");
 
 	//Exit
 	printf("\nPress any key to exit.");
@@ -55,5 +121,4 @@ int main()
 	getch();
 
 	return 0;
-
 }
