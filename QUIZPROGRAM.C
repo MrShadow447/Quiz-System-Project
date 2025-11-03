@@ -45,9 +45,9 @@ int main()
 	printf("Your Total Score is: %d / 3\n", score);
 
 	//Outro
-	if (score == 3) printf("YOUR A FCKING GENIUS!!\n");
-	else if (score <= 3 && score != 0) printf("Nice try. Now go study.\n");
-	else printf("Just give up on life bro. This was basic.\n");
+	if (score == 3) printf("Great! Full Marks!\n");
+	else if (score <= 3 && score != 0) printf("Nice try.\n");
+	else printf("Work Hard!\n");
 
 	//Exit
 	printf("\nPress any key to exit.");
@@ -55,4 +55,5 @@ int main()
 	getch();
 
 	return 0;
+
 }
